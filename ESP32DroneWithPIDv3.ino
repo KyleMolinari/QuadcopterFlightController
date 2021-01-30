@@ -137,14 +137,15 @@ void setup() {
   pinMode(batteryRead, INPUT);
 
   //Set PID coefficients
+  // ***Adjust as needed***
   //Thrust
-  Thrust.Kp = 0.25; //1
-  Thrust.Ki = 0; //0.000001
-  Thrust.Kd = 0; //300
+  Thrust.Kp = 0; 
+  Thrust.Ki = 0; 
+  Thrust.Kd = 0; 
   //Pitch
-  Pitch.Kp = 0; //10 //1.7
-  Pitch.Ki = 0; //0.00001
-  Pitch.Kd = 0; //1000
+  Pitch.Kp = 0; 
+  Pitch.Ki = 0; 
+  Pitch.Kd = 0;
   //Roll
   Roll.Kp = 0; 
   Roll.Ki = 0; 
